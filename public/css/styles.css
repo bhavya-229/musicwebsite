@@ -1,0 +1,237 @@
+/* css/styles.css */
+.bg-seafoamgreen {
+    background-color: #66A5AD !important ;
+}
+.text-light {
+    color: #000306 !important ;
+}
+/* Base styles for the body and html */
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#C4DFE6;
+}
+header {
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+}
+.search-bar {
+    /* max-width: 800px; */
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    border-radius: 5px;
+    padding: 10px;
+}
+.nav-txt-color{
+    color: #000306;
+}
+/* Ensures the main content expands to fill available space */
+.content {
+    flex: 1 0 auto; /* Flex-grow: 1, flex-shrink: 0, flex-basis: auto */
+    padding: 20px 0; /* Adding some top and bottom padding */
+}
+.hero{
+    height: 100px;
+}
+/* Footer stays at the bottom */
+.footer {
+    margin-top: 0px;
+    color: white;
+    /* padding: 10px 0; */
+    text-align: center;
+    flex-shrink: 0; /* Prevents the footer from shrinking */
+    position: sticky;
+    bottom: 0px;
+}
+.navbar-dark {
+    color:black;
+}
+.banner h1 {
+    font-size: 3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+  }
+.card {
+    background-color: #d1DFE6;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 149, 255, 0.395);
+    transition: transform 0.3s;
+    overflow: hidden;
+    
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between elements */
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+}
+main{
+    flex: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row > .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-deck .card {
+    margin-bottom: 20px;
+}
+
+h3.text-center {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.alert-info {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.download{
+    margin-bottom: 5px;
+}
+
+
+/* css for login and register page */
+
+.log-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: linear-gradient(to bottom, rgb(25, 199, 185), rgb(74, 122, 226));
+    width: 800px;
+    height: 400px;
+    margin: 10% auto;
+    border-radius: 5px;
+}
+
+.log-content-holder {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 15%;
+    padding: 50px;
+}
+
+.log-content-holder i {
+    font-size: 100px;
+    margin-top: 70px;
+}
+
+.box-2 {
+    background-color: white;
+    margin: 5px;
+}
+
+.login-form-container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.login-form-container h1 {
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.input-field {
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(168, 168, 168);
+    width: 250px;
+    outline: none;
+}
+
+.login-button {
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    width: 250px;
+    outline: none;
+    background-color: rgb(56, 102, 189);
+}
+.signup-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: linear-gradient(to bottom, rgb(25, 199, 185), rgb(74, 122, 226));
+    width: 800px;
+    height: 440px;
+    margin: 10% auto;
+    border-radius: 5px;
+}
+.signup-form-container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.signup-form-container h1 {
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.signup-button {
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    width: 250px;
+    outline: none;
+    background-color: rgb(56, 102, 189);  
+}
+
+.content-holder h2 {
+    font-size: 34px;
+    /* margin: 20px auto; */
+}
+
+ .content-holder p {
+    margin: 30px auto;
+}
+ 

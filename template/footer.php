@@ -1,0 +1,1 @@
+<p style="padding-top: 14px;" ><b>&copy; 2024 MelodyMine</b></p>
