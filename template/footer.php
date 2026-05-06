@@ -1,1 +1,1 @@
-<p style="padding-top: 14px;" ><b>&copy; 2024 MelodyMine</b></p>
+<p class="footer-copy">&copy; <?php echo date('Y'); ?> MelodyMine. Stream your vibe.</p>
